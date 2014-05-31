@@ -22,27 +22,28 @@ file.createFile("tmp/", "file", "Hello World")
 
 <p>For now this module containes : </p>
 <div>
+<p>
 <code>createFile(path, fileName, message)</code>
-  This is to create a new file, where you can also write something in that file.
-
+  This is to create a new file, where you can also write something in that file.</p>
+<p>
 <code>rewriteFile(path, fileName, message)</code>
-  This writes an existing file, what it does is deletes everything that was there, and just adds the new message.
-
+  This writes an existing file, what it does is deletes everything that was there, and just adds the new message.</p>
+<p>
 <code>writeFile(path, fileName, message)</code>
-  This does the task of appending the message to the existing file. 
-
+  This does the task of appending the message to the existing file. </p>
+<p>
 <code>deleteFile(path, fileName)</code>
-  This deletes the file
-
+  This deletes the file</p>
+<p>
 <code>renameFile(path, oldFileName, newFileName)</code>
-  Renames the file
-
+  Renames the file</p>
+<p>
 <code>readFile(path, fileName)</code>
-  Reads the file and gives the content it has. 
-
+  Reads the file and gives the content it has. </p>
+<p>
 <code>copyFile(oldPath, fileName, newPath)</code>
-  It copies the file into another directory. 
-
+  It copies the file into another directory. </p>
+<p>
 <code>moveFile(oldPath, fileName, newPath)</code>
-  It moves the file into another directory. 
+  It moves the file into another directory. </p>
 </div>
