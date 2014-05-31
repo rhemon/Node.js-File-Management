@@ -1,4 +1,4 @@
-Node-File-Management
+Node.js-File-Management
 ====================
 <p>This is just a simple module, doing the basic tasks of file system, like creating a file, reading a file, renaming a file, etc.
 This module just makes the codign simpler, meaning rather than repeating (for example to create a file): </p>
