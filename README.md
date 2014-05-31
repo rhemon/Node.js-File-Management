@@ -24,27 +24,27 @@ Basically I made this simple module for my own practice, to learn about file sys
 For now this module containes : 
 
 
-<tt>createFile(path, fileName, message)</tt>
+<code>createFile(path, fileName, message)</code>
   This is to create a new file, where you can also write something in that file.
 
-<tt>rewriteFile(path, fileName, message)</tt>
+<code>rewriteFile(path, fileName, message)</code>
   This writes an existing file, what it does is deletes everything that was there, and just adds the new message.
 
-<tt>writeFile(path, fileName, message)</tt>
+<code>writeFile(path, fileName, message)</code>
   This does the task of appending the message to the existing file. 
 
-<tt>deleteFile(path, fileName)</tt>
+<code>deleteFile(path, fileName)</code>
   This deletes the file
 
 
-<tt>renameFile(path, oldFileName, newFileName)</tt>
+<code>renameFile(path, oldFileName, newFileName)</code>
   Renames the file
 
-<tt>readFile(path, fileName)</tt>
+<code>readFile(path, fileName)</code>
   Reads the file and gives the content it has. 
 
-<tt>copyFile(oldPath, fileName, newPath)</tt>
+<code>copyFile(oldPath, fileName, newPath)</code>
   It copies the file into another directory. 
 
-<tt>moveFile(oldPath, fileName, newPath)</tt>
+<code>moveFile(oldPath, fileName, newPath)</code>
   It moves the file into another directory. 
