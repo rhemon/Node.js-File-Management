@@ -3,21 +3,21 @@ Node-File-Management
 <p>This is just a simple module, doing the basic tasks of file system, like creating a file, reading a file, renaming a file, etc.
 This module just makes the codign simpler, meaning rather than repeating (for example to create a file): </p>
 
-<div><code> 
-var fs = require('fs');<br/>
-var stream = fs.createWriteStream("tmp/file");<br/>
-stream.once('open', function (fd) {<br/>
-<pre>   stream.write("Hello World");</pre><br/>
-<pre>   stream.end();</pre><br/>
+<pre>
+var fs = require('fs');
+var stream = fs.createWriteStream("tmp/file");
+stream.once('open', function (fd) {
+    stream.write("Hello World");
+    stream.end();
 });
-</code><div>
+</pre>
+
 
 <p>using this module I can simpley write :</p>
-<div>
-<code>
-var file = require('./fileManagement')<br/>
+<pre>
+var file = require('./fileManagement')
 file.createFile("tmp/", "file", "Hello World")
-</code>
+</pre>
 
 Basically I made this simple module for my own practice, to learn about file system and a bit about modules. So as I was learning I made this module so that I can use it whenever I do a project where I will need to work file system.
 
