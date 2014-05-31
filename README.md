@@ -12,18 +12,16 @@ stream.once('open', function (fd) {
 });
 </pre>
 
-
 <p>using this module I can simpley write :</p>
 <pre>
 var file = require('./fileManagement')
 file.createFile("tmp/", "file", "Hello World")
 </pre>
 
-Basically I made this simple module for my own practice, to learn about file system and a bit about modules. So as I was learning I made this module so that I can use it whenever I do a project where I will need to work file system.
+<p>Basically I made this simple module for my own practice, to learn about file system and a bit about modules. So as I was learning I made this module so that I can use it whenever I do a project where I will need to work file system.</p>
 
-For now this module containes : 
-
-
+<p>For now this module containes : </p>
+<div>
 <code>createFile(path, fileName, message)</code>
   This is to create a new file, where you can also write something in that file.
 
@@ -36,7 +34,6 @@ For now this module containes :
 <code>deleteFile(path, fileName)</code>
   This deletes the file
 
-
 <code>renameFile(path, oldFileName, newFileName)</code>
   Renames the file
 
@@ -48,3 +45,4 @@ For now this module containes :
 
 <code>moveFile(oldPath, fileName, newPath)</code>
   It moves the file into another directory. 
+</div>
